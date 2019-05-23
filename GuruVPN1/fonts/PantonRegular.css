@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PantonRegular';
+    src: url('fonts/PantonRegular.eot');
+    src: url('fonts/PantonRegular.eot') format('embedded-opentype'),
+         url('fonts/PantonRegular.woff2') format('woff2'),
+         url('fonts/PantonRegular.woff') format('woff'),
+         url('fonts/PantonRegular.ttf') format('truetype'),
+         url('fonts/PantonRegular.svg#PantonRegular') format('svg');
+}

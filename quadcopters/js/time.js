@@ -1,0 +1,1 @@
+$("#CountDownTimer").TimeCircles({ time: {  Days: { show: false } }});

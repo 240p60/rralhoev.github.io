@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PantonLight';
+    src: url('fonts/PantonLight.eot');
+    src: url('fonts/PantonLight.eot') format('embedded-opentype'),
+         url('fonts/PantonLight.woff2') format('woff2'),
+         url('fonts/PantonLight.woff') format('woff'),
+         url('fonts/PantonLight.ttf') format('truetype'),
+         url('fonts/PantonLight.svg#PantonLight') format('svg');
+}

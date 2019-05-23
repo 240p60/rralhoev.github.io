@@ -1,0 +1,185 @@
+@media screen and (max-width:1240px){
+/*======  banner__slider  ======*/
+.banner__slider .item{min-height:469px;}
+.banner__slider .item .abs{font-size:40px;line-height:44px;margin-top:-88px;max-width:360px;}
+.banner__slider .owl-nav .owl-prev{left:20px;}
+.banner__slider .owl-nav .owl-next{right:20px;}
+
+/*======  about_us  ======*/
+.about_us .progress .progress__slider .owl-nav .owl-prev{left:20px;}
+.about_us .progress .progress__slider .owl-nav .owl-next{right:20px;}
+
+/*===== insta_block =====*/
+.insta_block .row .block{width:16.6666667%;}
+.insta_block .row .block:nth-child(4n){display:none;}
+.insta_block .row .block:nth-child(4) .abs{display:none;}
+.insta_block .row .block:nth-child(3) .abs{display:block;}
+}
+@media screen and (max-width:1000px){
+/*======  news  ======*/
+.news{padding:55px 0;}
+.news .inner > .tb{padding-top:40px;}
+.news .inner > .tb > .tbc .image{height:200px;}
+
+/*======  detailing  ======*/
+.detailing{padding:55px 0;}
+.detailing h1{font-size:42px;line-height:45px;}
+.detailing .row{margin-top:40px;margin-bottom:30px;}
+.detailing .row .block{width:50%;}
+
+/*===== review =====*/
+.review{padding:55px 0;}
+.review .review_slider{padding:30px 0 18px;}
+.review .review_slider .item{font-size:15px;line-height:18px;}
+
+/*===== insta_block =====*/
+.insta_block .row .block{width:25%;}
+.insta_block .row .block:nth-child(4n){display:none;}
+.insta_block .row .block:nth-child(3n){display:none;}
+.insta_block .row .block:nth-child(4) .abs{display:none;}
+.insta_block .row .block:nth-child(3) .abs{display:none;}
+.insta_block .row .block:nth-child(2) .abs{display:block;}
+
+/*===== about_us =====*/
+.about_us .anchors{padding:30px 0;margin-right:-15px;}
+.about_us .anchors > .fleft{padding-right:15px;}
+.about_us .anchors > .fleft a{padding: 12px 0;font-size:15px;line-height:18px;}
+.about_us > .inner > .cover{height:400px !important;}
+.about_us .txt{padding:20px 0 30px;}
+.about_us .txt p{margin-top:8px;}
+.about_us .our_team > div.rL{margin:25px 0 40px;}
+.about_us .our_team .row{margin-right:-20px;}
+.about_us .our_team .row .block{padding-right:0;float:none;width:auto;max-width:500px;margin:0 auto 20px;}
+.about_us .progress .progress__slider{margin-top:30px;}
+.about_us .vacancy{padding:40px 0 0;}
+.about_us .vacancy .inner > div.rL{margin:20px auto 0;}
+.about_us .vacancy .inner form {margin-right:0px;}
+.about_us .vacancy .inner form .input_block{width:auto;margin-right:0px;float:none;}
+.about_us .vacancy .inner form .input_block.w50{width:auto;margin-bottom:15px;}
+.about_us .vacancy .inner form .input_block input, .about_us .vacancy .inner form .input_block textarea{padding:15px;}
+.about_us .vacancy .inner form .input_block textarea{height:100px;}
+.about_us .vacancy .inner form .input_block label{padding-left:2px;}
+.about_us .vacancy .inner form .input_block label b{left:1px;}
+.about_us .vacancy .inner form .input_block{padding:0px;}
+.about_us .vacancy .inner form .input_block button{padding: 12px 0;font-size:14px;line-height:18px;margin-top:20px;}
+
+/*====== contacts__page =====*/
+.contacts__page{padding:35px 0 0;}
+.contacts__page h1{font-size:42px;line-height:45px;}
+.contacts__page .banner{margin:35px 0 0;height:300px;}
+.contacts__page .map__block{margin-top:50px;}
+.contacts__page .map__block .fright{margin-left:20px;}
+.contacts__page p{margin-top:40px;}
+.contacts__page form{margin-top:40px;}
+.contacts__page form .input_block + .input_block{margin-top:15px;}
+.contacts__page form .input_block textarea{height:280px;}
+.contacts__page form .input_block input, .contacts__page form .input_block textarea{padding:15px;}
+.contacts__page form button{padding: 12px 0;font-size:14px;line-height:18px;margin-top:20px;}
+.contacts__page form .input_block .area{padding:10px 15px;}
+}
+@media screen and (max-width:930px){
+/*======  banner__slider  ======*/
+.banner__slider .item{min-height:300px;}
+.banner__slider .item .abs{font-size:30px;line-height:34px;margin-top:-68px;max-width:260px;margin-left:-350px;}
+.banner__slider .owl-nav > div{width:34px;height:32px;margin-top:-16px;}
+
+/*===== about_us =====*/
+.about_us .progress .progress__slider .item{height:300px;}
+.about_us .progress .progress__slider .owl-nav > div{width:34px;height:32px;margin-top:-16px;}
+}
+@media screen and (max-width:767px) {
+/*======  news  ======*/
+.news{padding:45px 0 55px;}
+.news .inner > .tb{padding-top:25px;display:block;width:auto;}
+.news .inner > .tb > .tbc{display:block;width:auto;}
+.news .inner > .tb > .tbc .image{height:200px;}
+.news .inner .left_side{padding:0px;}
+.news .inner .right_side{padding:0px;margin-top:30px;}
+
+/*======  map  ======*/
+#map{height:300px;}
+#map_2{height:300px;}
+
+/*====== contacts__page =====*/
+.contacts__page form{margin-top:30px;}
+.contacts__page form > .tb{display:block;width:auto;}
+.contacts__page form .tb > .tbc{display:block;width:auto;}
+.contacts__page form .tb > .left_side{padding-right: 0px;}
+.contacts__page form .tb > .right_side{padding-left:0px;margin-top:15px;}
+.contacts__page form .input_block .area{height:107px;}
+.contacts__page form .input_block .disclaimer{padding:0 0 0 40px;}
+.contacts__page form .input_block .disclaimer b{left:40px;top:0;}
+
+.contacts__page .map__block{margin-top:30px;}
+.contacts__page .map__block .fright{padding-top:20px;margin:0 auto;text-align:center;float:none;}
+.contacts__page .map__block .fright:before{left:50%;margin-left:-48px;}
+
+.contacts__page p{margin-top:30px;}
+}
+@media screen and (max-width:660px){
+/*======  banner__slider  ======*/
+.banner__slider .item{min-height:240px;}
+.banner__slider .item .abs{font-size:22px;line-height:25px;margin-top:-50px;max-width:200px;margin-left:-260px;}
+.banner__slider .owl-nav .owl-prev{left:10px;}
+.banner__slider .owl-nav .owl-next{right:10px;}
+
+/*===== insta_block =====*/
+.insta_block .row .block{width:50%;height:160px;}
+.insta_block .row .block:nth-child(5){display:none;}
+.insta_block .row .block:nth-child(4n){display:none;}
+.insta_block .row .block:nth-child(3n){display:none;}
+.insta_block .row .block:nth-child(2n){display:none;}
+.insta_block .row .block:nth-child(4) .abs{display:none;}
+.insta_block .row .block:nth-child(3) .abs{display:none;}
+.insta_block .row .block:nth-child(2) .abs{display:none;}
+.insta_block .row .block:nth-child(1) .abs{display:block;}
+
+/*===== about_us ====*/
+.about_us .progress .progress__slider .item{height:240px;}
+.about_us .progress .progress__slider .owl-nav .owl-prev{left:10px;}
+.about_us .progress .progress__slider .owl-nav .owl-next{right:10px;}
+
+.about_us .our_team .row .block{text-align:center;}
+.about_us .our_team .row .block .image{float:none;margin:0 auto 20px;}
+.about_us .our_team .row .block .name span.rL:after{left:50%;margin-left:-32px;}
+.about_us .our_team .row .block .position{padding:15px 0 10px;}
+.about_us > .inner > .cover{height:280px !important;}
+}
+
+@media (max-width:600px){
+.about_us .anchors{margin-right:0px;}
+.about_us .anchors > .fleft{padding-right:0px;float:none;margin:0 auto;width:70%;}
+.about_us .anchors > .fleft+.fleft{margin-top:10px;}
+}
+@media (max-width:500px){
+/*======  detailing  ======*/
+.detailing h1 {font-size: 32px;line-height: 35px;}
+.detailing .row .block{width:auto;float:none;height:180px;}
+.detailing .row .block .abs{height:90px;}
+.detailing .row .block .abs span{font-size:20px;line-height:23px;}
+.detailing .row .block:hover:after{height:90px;}
+/*======  banner__slider  ======*/
+.banner__slider .item{min-height:120px;}
+.banner__slider .item .abs{font-size:14px;line-height:16px;margin-top:-32px;max-width:120px;margin-left:-165px;}
+.banner__slider .owl-nav > div{width:26px;height:24px;margin-top:-12px;}
+
+/*======  news  ======*/
+.news .inner > .tb > .tbc{font-size:14px;line-height:17px;}
+.news .inner > .tb > .tbc .date{font-size:13px;line-height:15px;padding:10px 0 6px 12px;}
+.news .inner > .tb > .tbc .title{font-size:16px;line-height:19px;}
+
+/*===== review =====*/
+.review .review_slider .owl-dots > div:nth-child(2n) + div{display:none;}
+
+/*===== about_us =====*/
+.about_us > .inner > .cover{height: 180px !important;}
+
+/* contacts__page */
+.contacts__page h1 {font-size: 32px;line-height: 35px;}
+
+/*======  map  ======*/
+#map{height:240px;}
+#map_2{height:240px;}
+
+.contacts__page .banner{height:240px;}
+}

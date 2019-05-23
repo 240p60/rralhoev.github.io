@@ -1,0 +1,117 @@
+.p {display: block; height: 1px; width: 1px; margin:0px;padding: 0px;}
+h2{font-size:54px;line-height:60px;font-family: 'Conv_Proxima Nova Black';color:#b3a08a;text-transform:uppercase;text-align:center;}
+
+#header {padding-top: 32px;}
+#header.main_head{color:#fff; background: #151515;padding-bottom:20px;}
+#header.main_head a{color:#fff;}
+#header.main_head .menu li a{color:#fff;}
+#header.main_head .inner .logo{background: url(img/logo.png)no-repeat;background-size:cover;}
+#header.main_head .burger div{background-color:#fff;}
+#header.main_head .burger.active div{background-color:#000;}
+#header .inner .logo {margin-top: -20px; margin-right: 96px; width: 160px;height: 68px;background-image: url(img/logo1.png);background-repeat: no-repeat;background-size: cover;display:block;}
+#header .fright {width: 192px;}
+#header .fright a {font-size: 14px; line-height: 36px;padding: 0px 14px 0px 13px;background-color: #B3855F;font-family: 'Conv_Proxima Nova Bold';color: #fff; border-radius: 6px;}
+#header .content {margin-top: 20px;}
+#header .content > .rL {padding-left: 32px;}
+#header .content p:nth-child(1) span {font-size: 14px;line-height: 17px;}
+#header .content a {font-size: 20px; line-height: 23px;margin-left: 30px;margin-top: 10px;}
+#header .content p:before { content: "";display:block;margin-right: 11px;position: absolute;left: 0px;bottom: 4px; width: 22px;height: 22px;background-repeat: no-repeat;background-position: center;background-image: url(img/map.svg);}
+#header .content a:before { content: "";display:block;margin-right: 11px;position: absolute;left: 0px;bottom: 4px; width: 22px;height: 22px;background-repeat: no-repeat;background-position: center;background-image: url(img/phone.svg);}
+#header .menu {font-size: 0px;margin-top: 21px;max-width:640px;width: auto;float: left;}
+#header .menu li {font-size: 16px;}
+#header .menu li a{padding:0 16px;}
+#header .menu li:first-child a{padding:0 32px 0 0;}
+#header .menu li a {color: #0d0d0d;text-decoration: none;line-height: 38px; font-size: 16px;position: relative;}
+#header .menu li a:hover:after{ content: "";display: block;position: absolute;bottom: 0px;left: 0px;width: 100%; height: 1px;background-color: #c5ab8c;opacity: 1;}
+#header .menu:after {content: "";display: block;position: absolute;bottom: 0px;left: 0px;width: 100%; height: 1px;background-color: #c5ab8c;opacity: 0.2;}
+#header .sozial {font-size: 0px;float: left;margin-top: 24px;margin-left: 32px;}
+#header .sozial li {font-size: 24px;}
+#header .sozial li+li {margin-left: 15px;}
+#header .sozial li a{display: block; width: 25px; height: 25px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+#header .sozial li:nth-child(1)  a{background-image: url(img/vk.svg);}
+#header .sozial li:nth-child(2)  a {background-image: url(img/inst.svg);}
+#header .sozial li:nth-child(3)  a {background-image: url(img/yout.svg);}
+#header .burger {width: 23px; height: 17px; z-index: 100; right: 14px; top: 4px;cursor: pointer;}
+#header .burger div {width: 100%;height: 2px; background-color: #000;transition:0.3s;}
+#header .burger div+div {margin-top: 5px;}
+#header .burger.active div:nth-child(1) {transform: rotate(45deg);}
+#header .burger.active div:nth-child(2) {display: none;}
+#header .burger.active div:nth-child(3) {transform: rotate(-45deg);margin-top: -2px;}
+#header .burger.active {position:fixed;top:42px;right:26px;}
+
+#wrapper .subfooter {height: 574px;}
+#footer {padding-top: 96px; padding-bottom: 132px; height: 574px; margin-top: -574px;box-sizing: border-box;background-color: #F2EFEC;}
+#footer .fleft {width: 256px;margin-right: 31px;}
+#footer .fleft .logo {display:block;width: 160px;height: 68px;background-image: url(img/logo1.png);background-repeat: no-repeat;background-size: cover;}
+#footer .fleft a.fon {color: #000;margin-top: 16px; margin-bottom: 8px; font-size: 22px; line-height: 25px;font-family: 'Conv_Proxima Nova Semibold';}
+#footer .fleft span:nth-child(3) {margin-bottom: 16px;}
+#footer .sozial {font-size: 0px;margin-top: 15px;margin-bottom: 32px;}
+#footer .sozial li {font-size: 24px;}
+#footer .sozial li+li {margin-left: 15px;}
+#footer .sozial li a{display: block; width: 25px; height: 24px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+#footer .sozial li:nth-child(1)  a{background-image: url(img/vk.png);}
+#footer .sozial li:nth-child(2)  a {background-image: url(img/inst.png);}
+#footer .sozial li:nth-child(3)  a {background-image: url(img/yout.png);}
+#footer .fright {width: 352px;}
+#footer .fright p {font-size: 28px; line-height: 31px;font-family: 'Conv_Proxima Nova Bold';color: #b3a08a;margin-top: 27px;margin-left: 31px;margin-bottom: 19px;}
+#footer .fright .inputbox {padding: 17px 30px 13px 30px;margin-bottom: 8px;-webkit-box-shadow: 0px 5px 10px 1px rgba(217,209,201,1);-moz-box-shadow: 0px 5px 10px 1px rgba(217,209,201,1);box-shadow: 0px 5px 10px 1px rgba(217,209,201,1);}
+#footer .fright textarea {height: 105px; resize: none;}
+#footer .fright button{box-shadow: none; max-width: 257px;width: 96%;padding: 17px 30px 20px 30px;background-color: #B3855F;border-radius: 6px;margin: 0 auto;color: #fff;margin-top: 24px;}
+#footer .rL.hid ul {font-size: 0px;margin-top: 27px;}
+#footer .rL.hid ul li a {position: relative; font-size: 16px;line-height: 28px;color: #151515;text-decoration: none;}
+#footer .rL.hid ul li a:hover:after {content: "";width: 100%;height: 2px; background-color: #0D0D0D; display: block;position: absolute;bottom: 0px; left: 0px;}
+#footer .rL.hid ul + ul {margin-left: 31px;}
+
+.uslugi_page .banner {margin-top: 64px; margin-bottom: 96px; height: 90px; background-size: cover;background-repeat: no-repeat;background-position: center;}
+.uslugi_page h1 {font-size: 54px; line-height: 57px;color: #b3a08a;font-family: 'Conv_Proxima Nova Black';}
+.uslugi_page .catalog .item {padding-right: 32px;margin-top: 32px;height: 384px;}
+.uslugi_page .catalog {margin-right: -32px;}
+.uslugi_page .catalog .item:nth-child(4n), .uslugi_page .catalog .item:nth-child(4n+1) {height: 384px;width: 55%;}
+.uslugi_page .catalog .item .block2{background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url(images/uslugi_catalog.png);}
+.uslugi_page .catalog .item .block {-webkit-box-shadow: 0px 5px 25px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 25px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 25px -7px rgba(0,0,0,0.75);padding: 61px 0px 64px 0px;background-color: #fff; border-radius: 6px;margin-top: 56px;}
+.uslugi_page .catalog .item .block p {display: inline-block; margin: 0 auto; font-size: 18px;line-height: 46px; font-family: 'Conv_Proxima Nova Bold';}
+.uslugi_page .catalog .item .block p:after {content: "";display: block; width: 100%; height: 1px; background-color: #000;}
+.uslugi_page .catalog .item .block span.db {font-size: 16px; line-height: 19px;margin-top: 16px;margin-bottom: 32px;}
+.uslugi_page .catalog .item .block a.button {background-color: #AF825D;border-radius: 6px;padding: 0px 49px;font-size: 16px; line-height: 40px; color: #fff;max-width: 192px; margin: 0 auto;width: 96%;box-sizing: border-box;}
+.uslugi_page .banner2 {margin-top: 96px; height: 250px;background-position: center;background-repeat: no-repeat;background-size: cover;}
+
+.stock_page h1 {font-size: 54px; line-height: 57px;color: #b3a08a;font-family: 'Conv_Proxima Nova Black'; margin: 63px 0px;}
+.stock_page .catalog {margin-right: -32px;}
+.stock_page .catalog .item {padding-right: 32px;height: 390px;margin-bottom: 68px;}
+.stock_page .catalog .item .img_block {box-sizing: border-box; background-image:url(images/stock_catalog1.png); background-repeat: no-repeat;background-position: center;background-size: cover; height: 224px;width: 100%;}
+.stock_page .catalog .item .img_block .hide a {display: inline-block; width: 86px;height: 37px;background-image: url(img/logo.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.stock_page .catalog .item .img_block .hide p {color: #fff; text-align: center; font-family: 'Conv_Proxima Nova Bold';font-size: 18px; line-height: 17px;}
+.stock_page .catalog .item .img_block .hide p:last-child {font-size: 30px; line-height: 33px;}
+.stock_page .catalog .item .img_block .hide p:last-child span {font-size: 18px;line-height: 17px;}
+.stock_page .catalog .item .img_block:hover .hide {display: block;padding: 3px;}
+.stock_page .catalog .item span.db:nth-child(2) {margin-top: 32px; margin-bottom: 16px; font-size: 17px; line-height: 21px;font-family: 'Conv_Proxima Nova Bold';}
+.stock_page .catalog .item a.button {margin-top: 16px; color: #a68461;font-family: 'Conv_Proxima Nova Bold';text-decoration: underline!important;}
+
+.stock_page2 h1 {font-size: 28px; line-height: 31px;color: #b3a08a; font-family: 'Conv_Proxima Nova Black';margin-top: 30px;margin-bottom: 60px;}
+.stock_page2 .fleft {width: 546px;margin-right: 30px;height: 359px;}
+.stock_page2 .fleft .img_block {box-sizing: border-box; background-image:url(images/stock_catalog1.png); background-repeat: no-repeat;background-position: center;background-size: cover;padding:10px 25px;}
+.stock_page2 .fleft .img_block .alRight a {display: inline-block; width: 150px;height: 63px;background-image: url(img/logo.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.stock_page2 .fleft .img_block .alRight p {color: #fff; text-align: center; font-family: 'Conv_Proxima Nova Bold';font-size: 20px; line-height: 23px;}
+.stock_page2 .fleft .img_block .alRight p:last-child {font-size: 70px; line-height: 75px;}
+.stock_page2 .fleft .img_block .alRight p:last-child span {font-size: 20px;line-height: 23px;}
+.stock_page2 .rL.hid p {font-size: 16px; line-height: 19px;margin-top: 14px;}
+
+.stock_page2 #breadcroumbs {font-size: 0px;margin-top: 32px;}
+.stock_page2 #breadcroumbs li a{font-size: 16px;line-height: 19px;color: #b3a08a;text-decoration: underline!important;}
+.stock_page2 #breadcroumbs li+li {margin-left: 41px;}
+.stock_page2 #breadcroumbs li+li:before {content: "";width: 14px; height: 5px; background-position: center;background-image: url(img/breadcroumbs_before.png);display: block;position: absolute;left: 0px;top: 50%;margin-top: -2.5px;margin-left: -26px;}
+
+.reviews_page .catalog .item .block2{background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url(images/revies_catalog.png);}
+.reviews_page h1 {margin-top: 64px;}
+.reviews_page .catalog .item .block {padding: 32px;}
+.reviews_page .button_block a {font-size: 18px;line-height: 64px;background-color:#AF825D;border-radius: 6px; max-width: 384px; width: 96%;text-align: center;color: #fff;margin-top: 65px;}
+.reviews_page .button_block a:nth-child(1) {margin-right: 32px;}
+.reviews_page .button_block {margin: 0 auto;max-width: 832px; width: 96%;}
+
+.work_page h1 {font-size: 54px; line-height: 57px;color: #b3a08a; font-family: 'Conv_Proxima Nova Black';margin-top: 64px; margin-bottom: 64px;}
+.work_page .catalog{margin-right: -32px;margin-top: }
+.work_page .catalog .item {padding-right: 32px;margin-bottom: 32px;}
+.work_page .catalog .item a.fancybox {height: 396px;background-size: cover;background-position: center;background-repeat: no-repeat;}
+.work_page .catalog .item p.abs {cursor: pointer; bottom: 32px;left: 32px;font-size: 18px;line-height: 31px; color: #fff;font-family: 'Conv_Proxima Nova Bold';}

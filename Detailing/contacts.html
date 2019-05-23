@@ -1,0 +1,234 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1.0, target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+<meta name="HandheldFriendly" content="true"> 
+<meta name="MobileOptimized" content="320"> 
+<title>Title Here</title> 
+<link rel="stylesheet" type="text/css" href="assets/global.css">
+<link rel="stylesheet" type="text/css" href="template_style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" type="text/css" href="assets/adaptive.css">
+<link rel="stylesheet" type="text/css" href="assets/adaptive2.css">
+<link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
+<style>
+	.ymaps-2-1-69-ground-pane{filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);}
+</style>
+</head> 
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<div class="inner">
+				<div class="burger abs hide">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<a href="#" class="logo button fleft rL"></a>
+				<div class="fright rL"><a href="" class="db upp button alCenter">заказать звонок</a></div>
+				<div class="rL hid content">
+					<p class="inb vM rL">
+						<span class="db">Тюмень, ул. Федюнинского, 41</span>
+						<span class="db">Время работы Пн-Вс / 09:00 - 21:00</span>
+					</p>
+					<a href="tel:+7(3452)515000" class="inb button vM rL">+7 (3452) 515 000</a>
+				</div>
+				<div class="clear"></div>
+				<ul class="menu rL">
+					<li class="inb vM">
+						<a href="./uslugi.html" class="db">Услуги</a>
+					</li>
+					<li class="inb vM">
+						<a href="./akzii.html" class="db">Акции</a>
+					</li>
+					<li class="inb vM">
+						<a href="./about_us.html" class="db">О нас</a>
+					</li>
+					<li class="inb vM">
+						<a href="./contacts.html" class="db">Контакты</a>
+					</li>
+					<li class="inb vM">
+						<a href="./works.html" class="db">Портфолио</a>
+					</li>
+					<li class="inb vM">
+						<a href="./akzii2.html" class="db">Новости</a>
+					</li>
+					<li class="inb vM">
+						<a href="./reviews.html" class="db">Отзывы</a>
+					</li>
+				</ul>
+				<ul class="sozial rL">
+					<li class="inb vM">
+						<a href="" class="button"></a>
+					</li>
+					<li class="inb vM">
+						<a href="" class="button"></a>
+					</li>
+					<li class="inb vM">
+						<a href="" class="button"></a>
+					</li>
+				</ul>
+				<div class="clear"></div>
+			</div><!-- end inner -->
+		</header>
+		<main id="main">
+			<div class="contacts__page">
+				<div class="inner">
+					<h1>Контакты</h1>
+					<div class="banner cover"></div>
+					<div class="map__block rL">
+						<div class="fright rL">
+							<a href="tel:+7(3452)515000" class="rL tel db button">+7 (3452) 515 000</a>
+							<a href="mailto:info.detailing@detailingpro.ru" class="rL db mail button">
+								 info.detailing@detailingpro.ru
+							</a>
+							<div class="adress">
+								<div class="title">Наш адрес</div>
+								<span>г. Тюмень, ул. Федюнинского, 41</span>
+								<span>Время работы:</span>
+								<span>Пн-Пт / 09:00 - 21:00</span>
+								<span>Сб-Вс / выходные дни</span>
+							</div>
+						</div>
+						<div id="map" class="rL hid">
+						</div>
+						<div class="clear"></div>
+					</div>
+					<p>Позвольте поблагодарить вас за выбор нашего детейлинг-центра. Будем также признательны, если найдете время поделиться вашим мнением о качестве нашей работы. <i class="db"></i>В совершенствовании наших услуг и сервиса мы руководствуемся прежде всего вашими предложениями и отзывами! Пожалуйста, заполните электронную форму обращения, которую вы сможете найти ниже.</p>
+					<form action="php/review.php" method="post" name="call-form" class="rL m0a">
+						<div class="tb w100">
+							<div class="tbc vT rL left_side">
+								<div class="input_block rL box">
+									<input type="text" name="family" class="rL hid box inputbox w100" placeholder="Фамилия*" required="">
+								</div>
+								<div class="input_block rL box">
+									<input type="text" name="number" class="rL hid inputbox box w100 numbox" placeholder="Контактный телефон*" required="">
+								</div>
+								<div class="input_block rL box copyright">
+									<span class="db">Согласие на обработку персональных данных</span>
+									<div class="area rL box">
+										Я, Даю согласие Обществу с ограниченной ответственностью «Альянс Мотор Тюмень», адрес: 625062, г. Тюмень, ул. Федюнинского, д. 41, на обработку моих персональных данных, а именно: на сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, распространение (в том числе передачу), обезличивание, блокирование, моих персональных данных, указанных в резюме/анкете, в целях принятия решения о возможности заключения со мной трудового договора.
+										<i class="db"></i>Под персональными данными я понимаю любую информацию, относящуюся ко мне, как к субъекту персональных данных, в том числе: фамилия, имя, отчество, год, месяц, дата и место рождения, адрес, номера контактных телефонов, адрес электронной почты, семейное, социальное, имущественное положение, образование, опыт работы, доходы, другая информация, указанная мной, в резюме/анкете, предоставленной ООО «Альянс Мотор Тюмень». <i class="db"></i>Срок действия Согласия - до момента подписания трудового договора между мной и ООО «Альянс Мотор Тюмень». <i class="db"></i>Настоящим я подтверждаю, что уведомлен и мне понятно мое право на отзыв Согласия путем направления мной в адрес ООО «Альянс Мотор Тюмень» письменного заявления, в соответствии с которым ООО «Альянс Мотор Тюмень» прекратит обработку и уничтожит мои персональные данные в течение 14 (Четырнадцати) дней с момента получения такого письменного заявления. 
+									</div>
+								</div>
+								<div class="input_block rL box">
+									<label class="db rL cp hid">
+										<span class="db">*Поле обязательно для заполнения</span>
+										<input type="checkbox" class="hide">
+										<b></b>
+										<span class="rL db">Настоящем потверждаю согласие на оброботку персональных данных</span>
+									</label>
+								</div>
+							</div>
+							<div class="tbc vT rL right_side">
+								<div class="input_block rL box">
+									<input type="email" name="email" class="rL hid inputbox box w100" placeholder="E-mail*" required="">
+								</div>
+								<div class="input_block rL box">
+									<textarea name="descriprion" placeholder="Ваш отзыв (не более 100 символов)*" class="rL hid textarea box w100"></textarea>
+								</div>
+								<div class="input_block rL box">
+									<label class="db rL cp hid disclaimer">
+										<input type="checkbox" class="hide">
+										<b></b>
+										<span class="rL db">Отказ от обратной связи</span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<button type="submit" name="call-submit" class="m0a alCenter rL w100">
+							Отправить сообщение
+						</button>
+						<input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
+					</form>
+				</div>
+			</div>
+		</main>
+		<div class="subfooter"></div>
+	</div>
+		<footer id="footer">
+			<div class="inner2">
+				<div class="fleft rL">
+					<a href="#" class="logo rL button"></a>
+					<a href="tel:+7(3452)515000" class="db fon button">+7 (3452) 515 000</a>
+					<span class="db">Тюмень, ул. Федюнинского, 41</span>
+					<span class="db">Время работы</span>
+					<span class="db">Пн-Вс / 09:00 - 21:00</span>
+					<ul class="sozial rL">
+						<li class="inb vM">
+							<a href="" class="button"></a>
+						</li>
+						<li class="inb vM">
+							<a href="" class="button"></a>
+						</li>
+						<li class="inb vM">
+							<a href="" class="button"></a>
+						</li>
+					</ul>
+					<span class="db">ООО «Luxury Detailing Pro»  2018</span>
+				</div>
+				<div class="fright rL">
+					<form>
+						<p>НАПИСАТЬ НАМ</p>
+						<div class="rL">
+							<input type="text" placeholder="Имя*" class="db inputbox box rL w100">
+						</div>
+						<div class="rL">
+							<input type="text" placeholder="Имя*" class="db inputbox box rL w100">
+						</div>
+						<div class="rL">
+							<textarea placeholder="Сообщение*" class="db inputbox box rL w100"></textarea>
+						</div>
+						<div class="rL">
+							<button class="db inputbox box rL upp">отправить сообщение</button>
+						</div>
+					</form>
+				</div>
+				<div class="rL hid">
+					<ul class="inb vT">
+						<li class="db">
+							<a href="" class="inb upp">Услуги</a>
+						</li>
+						<li class="db">
+							<a href="" class="inb upp">Акции</a>
+						</li>
+						<li class="db">
+							<a href="" class="inb upp">О нас</a>
+						</li>
+						<li class="db">
+							<a href="" class="inb upp">Контакты</a>
+						</li>
+					</ul>
+					<ul class="inb vT">
+						<li class="db">
+							<a href="" class="inb upp">Портфолио</a>
+						</li>
+						<li class="db">
+							<a href="" class="inb upp">Новости</a>
+						</li>
+						<li class="db">
+							<a href="" class="inb upp">Отзывы</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div><!-- end inner -->
+		</footer>
+	<script src="js/jquery-1.12.1.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/mask.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/script2.js"></script>
+</body>
+</html>

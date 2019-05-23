@@ -1,0 +1,127 @@
+// @media (max-width:1500px){
+// .general-page{transform:scale(0.7, 0.7);}
+// }
+@media (max-width:1439px){
+.general-page .mega-wrapper{width:1440px;overflow:visible;}
+.general-page .footer{width:1440px;}
+}
+@media (max-width:1100px){
+/*deposit page*/
+.deposit .info-block .body .block .grey_section form .transaction{margin-top:20px;}
+.deposit .info-block .body .block .grey_section form .transaction .inb{font-size:12px;line-height: 15px;}
+.deposit .info-block .body .block .grey_section form .transaction .inb span{padding-right:5px;}
+
+/*fees page*/
+.fees_login .in .inb + .inb{margin-left:10px;}
+.fees_login .in .content .bot_block .black{padding-right:5px;}
+.fees_login .in .content .bot_block .inb span + span{padding-left:5px;}
+.fees_login .in .content .bot_block .inb:first-child{display:block;}
+.fees_login .in .content .bot_block .inb:nth-child(2){margin-left:0;}
+}
+@media screen and (max-width: 1080px){
+    .general-page .subfooter{
+        display: block;
+    }
+    .general-page .f-bottom .right-box{
+        float: left;
+        margin-bottom: 0;
+    }
+}
+@media (max-width:1000px){
+/*about page*/
+.about .info-block .body .block{width: 50%;}
+
+/*about page second section*/
+.about .row{margin-right:0;}
+.about .row .block{padding-right:0px;float:none;width:auto;height:auto;}
+.about .row .block .body{height:auto;padding: 34px 20px 56px 30px;}
+.about .row .block .body .content .description{max-width:492px;}
+
+/*deposit page*/
+.deposit .inner > .tb{display:block;width:auto;}
+.deposit .inner > .tb > .tbc{display:block;width:auto;}
+.deposit .inner > .tb > .left_side.tbc{padding-right:0;}
+.deposit .inner > .tb > .right_side.tbc{padding-left:0;}
+
+/*fees page*/
+.fees .balanced_table .body .table .tbc{font-size:12px;}
+.fees .balanced_table .body .table .tr.on_desktop .tbc{font-size:12px;}
+}
+@media (min-width:768px){
+.fees .balanced .on_mobile{display:none !important;}
+}
+@media (max-width:767px){
+/*about page*/
+.about .info-block .body{margin-right:0;padding:25px 15px 5px;}
+.about .info-block .body .block{width: auto;float:none;height:auto;padding-right:0;max-width:260px;margin:0 auto 25px;}
+.about .info-block .body .block .content .description{max-width:none;}
+.about .info-block .body .block .content .title{max-width:none;}
+
+/*about page second section*/
+.about .row .block .ib-head{padding:14px;}
+.about .row .block .body{padding:34px 20px 46px 14px;}
+
+/*deposit page*/
+.transaction_table{margin-bottom:10px;}
+.transaction_table .ib-head{padding: 12px 10px;}
+.transaction_table .export_a{display:none;}
+.export_a{padding:0 0 50px;display:block;}
+.transaction_table .ib-head .export{padding-top:15px;float:none;width:auto;text-align:center;clear:both;line-height:19px;display:none;}
+.transaction_table .ib-head .export a{line-height:19px;}
+
+/*fees page*/
+.fees_grey{padding:14px 15px 20px;}
+.fees_grey ul{padding-left:17px;margin-top:20px;}
+.fees_grey ul li + li{margin-top:15px;}
+.fees_grey ul li{font-size:13px;line-height:16px;}
+.fees_grey ul li .thick{font-size:13px;}
+
+.fees_login > .tb{display:block;width:auto;}
+.fees_login > .tb > div{display:block;width:auto;}
+.fees_login .in .inb + .inb{margin-left:0;}
+.fees_login .in .content{text-align:center;}
+.fees_login .in .content .bot_block .inb{display:block;line-height:19px;}
+.fees_login .in .content .bot_block .label_inb{line-height:33px;margin:10px 0;}
+
+
+.fees .balanced .head{padding:12px 15px 15px;}
+.fees .balanced{overflow: auto;}
+.fees .balanced .body .table .tbc{height:32px;}
+.fees .balanced .on_desktop{display:none !important;}
+.fees .balanced .on_mobile{display:block;}
+.fees .balanced .tr:first-child .tbc:last-child{color:#000;font-weight:normal;font-size:12px;}
+
+.fees .withdraw_table .table .tbc{height:40px !important;}
+}
+@media(max-width:500px){
+/*deposit page*/
+.deposit .info-block .body .block{padding:18px 5px 30px;}
+.deposit .info-block .body .block .coin > li ul li .tbc{padding-left:8px;}
+.deposit .info-block .body .block .coin > li ul li + li{margin-top:15px;}
+.deposit .info-block .body .block .coin > li ul li .name{font-size:13px;line-height:15px;}
+.deposit .info-block .body .block .coin > li ul li .value{font-size:12px;line-height:15px;}
+.deposit .info-block .body .block .coin > li ul li .blue{font-size:14px;line-height:15px;}
+
+.deposit .info-block .body .block .grey_section{padding:20px 10px 25px;}
+.deposit .info-block .body .block .grey_section form .transaction .inb{display:block;width:auto;text-align:center;font-size:14px;line-height:18px;}
+.deposit .info-block .body .block .grey_section form .btn_block{text-align:center;}
+
+.deposit .info-block .body .bottom_block{padding:20px 10px 20px;}
+.deposit .info-block .body .bottom_block h2{margin-bottom:15px;}
+
+.transaction_table .ib-head .fleft{float:none;width:auto;margin-left:0;float:none;}
+.transaction_table .tabs_choice{padding-top:10px;float:none;}
+.transaction_table .table_area .item{min-height:300px;}
+.transaction_table .table_area .item table{padding: 10px 5px;font-size:12px;line-height:15px;}
+.export_a{float:none;}
+
+/*deposit_withdrawal page*/
+.deposit .info-block .body .block .coin > li > div{min-height:auto;padding-bottom:20px;}
+.deposit .info-block .body .block .coin > li > div .input_block{padding-left:8px;}
+.deposit .info-block .body .block .coin > li > div ul li span.rL{font-size:14px;line-height:15px;}
+.deposit .info-block .body .block .coin > li > div ul li span.rL:before{top:-1px;}
+
+.deposit .info-block .body .block .coin_select > li > a{padding-left:8px;}
+.deposit .info-block .body .block .coin_select > li ul li .blue{width:30% !important;}
+.deposit .info-block .body .block .coin_select{margin-bottom:0;}
+}

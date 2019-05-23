@@ -1,0 +1,439 @@
+/*about page*/
+.about .info-block .body{margin-right:-30px;padding:48px 24px 0;}
+.about .info-block .body .block{padding-right:30px;margin-bottom: 50px;height:75px;}
+.about .info-block .body .block .left_side{padding-right:24px;width:44px;}
+.about .info-block .body .block .content .title{font-size: 16px;line-height: 19px;color:#000;font-weight: 500;max-width: 175px;}
+.about .info-block .body .block .content .description{font-size:14px;line-height:16px;color:#939393;font-weight:300;margin-top:6px;max-width: 175px;}
+/*about page second section*/
+.about .row{margin-top:40px;margin-right:-32px;}
+.about .row .block{padding-right:32px;margin-bottom:41px;height:279px;}
+.about .row .block .info-block{box-sizing:border-box;height:100%;}
+.about .row .block .ib-head{padding:14px 30px;}
+.about .row .block .body{padding:0 20px 0 30px;margin-right:0;box-sizing: border-box;align-content: center;align-items: center;height: 216px;}
+.about .row .block .body .image{padding-right:18px;width:53px;}
+.about .row .block .body .content .description{font-size:16px;line-height:23px;max-width:285px;}
+
+/*deposit page*/
+.deposit .ib-head{padding:24px 30px;}
+.deposit .inner > .tb > .tbc{width:50%;box-sizing:border-box;padding-bottom:40px;}
+.deposit .inner > .tb > .left_side.tbc{padding-right:15px;}
+.deposit .inner > .tb > .right_side.tbc{padding-left:15px;}
+.deposit .info-block .body .block{padding:18px 30px 30px;}
+.deposit .info-block .body .block .coin > li > a{font-size:16px;line-height:19px;font-weight:500;padding: 11px 40px;background-color: #f9f9f9;color:#000;cursor:pointer;}
+.deposit .info-block .body .block .coin > li > a:hover{color:#000;text-decoration: none;}
+.deposit .info-block .body .block .coin > li > a:before{content:"";position:absolute;background: url("../img/btc.svg")no-repeat center center;width:16px;height:16px;left:17px;top:12px;}
+.deposit .info-block .body .block .coin > li > a:after{content:"";position:absolute;background: url("../img/arrow.svg")no-repeat center center;width:13px;height:10px;right: 17px;top:16px;left:auto;bottom:auto;transition:0.6s;}
+.deposit .info-block .body .block .coin > li.active > a:after{transform:rotate(180deg);}
+.deposit .info-block .body .block .coin > li > ul{padding-top:20px;display:none;}
+.deposit .info-block .body .block .coin > li ul li{display:table;width:100%;box-sizing:border-box;}
+.deposit .info-block .body .block .coin > li ul li+li{margin-top:25px;}
+.deposit .info-block .body .block .coin > li ul li .tbc{width:33.3333%;box-sizing:border-box;padding-left:16px;}
+.deposit .info-block .body .block .coin > li ul li .tbc a{color:#0077FF;}
+.deposit .info-block .body .block .coin > li ul li .tbc a:hover{text-decoration:none;}
+.deposit .info-block .body .block .coin > li ul li .name{color:#939393;font-size:14px;line-height:16px;font-weight:bold;}
+.deposit .info-block .body .block .coin > li ul li .value{font-size:13px;line-height:16px;color:#000;}
+.deposit .info-block .body .block .coin > li .blue{color:#0077FF;font-size:16px;line-height:19px;font-weight:500;}
+.deposit .info-block .body .block h2{font-size:28px;line-height:32px;font-weight:bold;}
+.deposit .info-block .body .block h3{font-size:24px;line-height:28px;font-weight:bold;}
+.deposit .info-block .body .block .dot_ul{margin-top:13px;font-size:16px;line-height:23px;padding-left:18px;}
+.deposit .info-block .body .block .dot_ul li{position:relative;}
+.deposit .info-block .body .block .dot_ul li a{color:#0077FF;}
+.deposit .info-block .body .block .dot_ul li a:hover{text-decoration:none;}
+.deposit .info-block .body .block .dot_ul li+li{margin-top:10px;}
+.deposit .info-block .body .block .dot_ul li:before{content:"";position:absolute;width:5px;height:5px;border-radius:50%;background-color:#000;left:-12px;top:9px;}
+.deposit .info-block .body .block .grey_section{margin:30px 0 20px;padding:22px 30px 25px 18px;background: #f9f9f9;border: 2px solid #f5f5f5;border-radius:5px;}
+.deposit .info-block .body .block .grey_section form{margin-top:12px;font-size:16px;line-height:19px;font-weight:bold;}
+.deposit .info-block .body .block .grey_section form .section_form+.section_form{margin-top:42px;}
+.deposit .info-block .body .block .grey_section form .limit{font-size: 15px;line-height: 18px;font-weight: 300;margin-top:20px;}
+.deposit .info-block .body .block .grey_section form .limit .bold{font-size:16px;line-height: 19px;font-weight: bold;}
+.deposit .info-block .body .block .grey_section form .input_block{margin-top:17px;}
+.deposit .info-block .body .block .grey_section form .input_block input{border: 1.5px solid #E7E7E7;font-size: 24px;line-height: 28px;padding:15px 20px;box-sizing:border-box;font-weight:bold;border-radius:5px;background-color: #f9f9f9;}
+.deposit .info-block .body .block .grey_section form .input_block input:focus{border:1.5px solid #0077FF;}
+.deposit .info-block .body .block .grey_section form .input_block i.abs{background: url("../img/arrow.svg")no-repeat center center;width:13px;height:10px;right:17px;top:50%;margin-top:-5px;cursor: pointer;}
+.deposit .info-block .body .block .grey_section form .withdraw input{font-weight: normal;text-align: right;font-size: 14px;padding-right:60px;}
+.deposit .info-block .body .block .grey_section form .withdraw span.abs{font-size:16px;line-height:19px;color:#0077FF;font-weight:bold;text-transform:uppercase;right: 22px;top:50%;margin-top:-10px;}
+.deposit .info-block .body .block .grey_section form .transaction{margin-top:25px;font-size:0px;}
+.deposit .info-block .body .block .grey_section form .transaction .inb{width: 50%;font-size:14px;line-height: 16px;font-weight: bold;color:#939393;}
+.deposit .info-block .body .block .grey_section form .transaction .inb span{padding-right:15px;}
+.deposit .info-block .body .block .grey_section form .btn_block{margin-top:20px;text-align:right;font-size:0px;}
+.deposit .info-block .body .block .grey_section form .btn_block button+button{margin-left:22px;}
+.deposit .info-block .body .block .grey_section form .btn_block button{color:#fff;font-size:16px;line-height:18px;font-weight:500;padding:7px 10px;display:inline-block;transition:0.6s;}
+.deposit .info-block .body .bottom_block{padding:30px 30px 34px;border-top:1px solid #F4F4F4;}
+.deposit .info-block .body .bottom_block h2{margin-bottom: 35px;}
+.deposit .info-block .body .bottom_block a{color:#000;font-size:16px;line-height:23px;}
+.deposit .info-block .body .bottom_block a:hover{color:#000;}
+.deposit .info-block .body .bottom_block a:after{display:none;}
+.transaction_table{margin-bottom:40px;}
+.transaction_table .tabs_choice{margin-left:35px;}
+.transaction_table .tabs_choice ul{font-size:0px;}
+.transaction_table .tabs_choice ul li{text-align:center;display:inline-block;vertical-align: middle;}
+.transaction_table .tabs_choice ul li+li{margin-left:5px;}
+.transaction_table .tabs_choice ul li a{color:#0077FF;font-size:16.25px;line-height:19px;padding:7px 10px;font-weight:500;transition:0.6s;border-radius:3px;cursor:pointer;}
+.transaction_table .tabs_choice ul li a:hover{text-decoration:none;}
+.transaction_table .tabs_choice ul li a:after{display:none;}
+.transaction_table .tabs_choice ul li.active a{color:#fff;background-color:#0077FF;}
+.transaction_table .export_a{display:block;}
+.export_a{display:none;}
+.export_a a{font-size:16px;line-height:33px;vertical-align:top;padding-left:30px;color:#0077FF;}
+.export_a a:hover{text-decoration:none;}
+.export_a a:before{content:"";position:absolute;left:0;top:0;background: url("../img/icon_document.svg")no-repeat;width:15px;height:18px;}
+.transaction_table .table_area .item{display:none;min-height: 400px;position:relative;}
+.transaction_table .table_area .item.active{display:block;}
+.transaction_table .table_area .item .abs{top:100px;font-size:15px;line-height:18px;color:#939393;width:186px;left:50%;margin-left:-93px;}
+.transaction_table .table_area .item .abs .image{margin-bottom:26px;}
+.transaction_table .table_area .item table{width:100%;font-size:14px;line-height:16px;text-align:center;}
+.transaction_table .table_area .item table th{color:#939393;padding:15px 10px;box-sizing:border-box;}
+.transaction_table .table_area .item table td:last-child{width:30%;}
+.transaction_table .table_area .item table td:first-child{width:20%;}
+.transaction_table .table_area .item table td:nth-child(2){width:10%;}
+.transaction_table .table_area .item table td:nth-child(3){width:20%;}
+.transaction_table .table_area .item table td:nth-child(4){width:20%;}
+
+/*deposit_withdrawal page*/
+.deposit .info-block .body .block .coin_select{border: 2px solid #f7f7f7;border-radius:5px;margin-bottom:40px;}
+.deposit .info-block .body .block .coin_select > li > a{color:#939393 !important;padding-left:17px;}
+.deposit .info-block .body .block .coin_select > li > a:hover{color:#939393 !important;}
+.deposit .info-block .body .block .coin_select > li > a:before{display:none;}
+.deposit .info-block .body .block .coin_select > li > div{padding-top:20px;display:none;padding-bottom:50px;}
+.deposit .info-block .body .block .coin_select > li > div .input_block{padding:0 0 20px 17px;max-width:150px;}
+.deposit .info-block .body .block .coin_select > li > div .input_block input{border: 1.5px solid #E7E7E7;font-size: 15px;line-height: 18px;padding: 4px 8px;border-radius: 5px;}
+.deposit .info-block .body .block .coin_select > li > div .input_block input:focus{border: 1.5px solid #0077FF;}
+.deposit .info-block .body .block .coin_select > li > div ul li:first-child{background-color:#f5f5f5;}
+.deposit .info-block .body .block .coin_select > li > div ul li span.rL{padding-left:25px;font-size:15px;line-height:18px;font-weight:bold;}
+.deposit .info-block .body .block .coin_select > li > div ul li span.rL:before{content:"";position:absolute;left:2px;top:0;background: url("../img/btc.svg")no-repeat;width: 16px;height: 16px;}
+.deposit .info-block .body .block .coin_select > li > div ul li span.grey{font-size:15px;line-height:18px;color:#939393;font-weight:normal;}
+.deposit .info-block .body .block .coin_select > li ul li{line-height:26px;}
+.deposit .info-block .body .block .coin_select > li ul li + li{margin-top:15px !important;}
+.deposit .info-block .body .block .coin_select > li ul li .tbc{width:50% !important;}
+.deposit .info-block .body .block .coin_select > li .blue{padding-right:20px;}
+
+/*transaction page*/
+.transaction .ib-head{padding:20px 25px;}
+
+/*fees page*/
+.fees_grey{border:1px solid #F4F4F4;background-color: #f9f9f9;color: #939393;font-size:14px;line-height:18px;padding:14px 30px 40px 25px;border-radius:5px;}
+.fees_grey h2{font-size:28px;line-height:33px;color:#000;font-weight:500;}
+.fees_grey ul{margin-top:33px;padding-left:45px;}
+.fees_grey ul li+li{margin-top:34px;}
+.fees_grey ul li{font-size:15px;line-height:19px;}
+.fees_grey ul li .thick{font-weight:bold;font-size:16px;}
+.fees_grey ul li span.rL:before{content: "";position: absolute;width: 5px;height: 5px;border-radius: 50%;background-color: #000;left: -12px;top: 6px;}
+
+.fees_login{border:1px solid #F4F4F4;border-radius:5px;margin:40px 0 35px;color: #939393;font-size:0px;}
+.fees_login > div{display:none;}
+.fees_login > .active{display:block;}
+.fees_login a{text-align: center;background-color: #0077ff;color: #fff;font-size: 16px;line-height: 18px;font-weight: 500;transition: 0.6s;border-radius: 3px;}
+.fees_login a:hover{color:#fff;text-decoration:none;}
+.fees_login .inb+.inb{margin-left:20px;}
+.fees_login .out{padding:36px 20px;}
+.fees_login .out .inb{font-size:15px;line-height:32px;}
+.fees_login .out a{padding: 7px 10px;}
+.fees_login .in .left_side{padding:22px 22px 18px;background-color: #f9f9f9;}
+.fees_login .in .left_side a{background-color:transparent;color:#0077FF;font-size:16px;line-height:19px;font-weight:bold;}
+.fees_login .in .left_side .tb{padding-bottom:27px;}
+.fees_login .in .content{padding:20px 27px 32px;color:#939393;font-size:14px;line-height:16px;}
+.fees_login .in .content a{padding: 7px 10px;}
+.fees_login .in .content .level{color:#0077FF;}
+.fees_login .in .content .level span.rL{padding-left:18px;}
+.fees_login .in .content .level span.rL:before{content:"";position:absolute;background:url("../img/E-active.svg")no-repeat;width:9px;height:16px;left:0;top:0;}
+.fees_login .in .content .name{font-size:24px;line-height:28px;font-weight:bold;color:#000;margin:7px 0 15px;}
+.fees_login .in .content .links_block{font-size:0;}
+.fees_login .in .content .links_block .red{background-color:#FF4065;}
+.fees_login .in .content .links_block .green{background-color:#3EC591;}
+.fees_login .in .content .links_block .inb+.inb{margin-left:15px;}
+.fees_login .in .content .bot_block{font-size:0;margin-top:15px;}
+.fees_login .in .content .bot_block .inb{font-size:14px;line-height:33px;}
+.fees_login .in .content .bot_block .black{color:#000;font-weight:500;font-size:16px;line-height:19px;padding-right:15px;}
+.fees_login .in .content .bot_block .inb span+span{padding-left:20px;}
+.fees_login .in .content .bot_block .inb label{font-size:0;color:#0077FF;cursor:pointer;height:33px;display:inline-block;}
+.fees_login .in .content .bot_block .inb label input{display:none;}
+.fees_login .in .content .bot_block .inb label span{font-size:13px;line-height:33px;display:inline-block;transition:0.6s;position:relative;z-index:5;}
+.fees_login .in .content .bot_block .inb label span+span{margin-left:7px;}
+.fees_login .in .content .bot_block .inb label .off{color:#fff;border-radius:3px;padding:0 7px;}
+.fees_login .in .content .bot_block .inb label .on{padding:0 9.55px;}
+.fees_login .in .content .bot_block .inb label b{border-radius:3px;width:37.3px;height:33px;position:absolute;left:0;top:0;background-color:#0077FF;z-index:3;transition:0.6s;}
+.fees_login .in .content .bot_block .inb label input:checked+b{left:44px;right:0;}
+.fees_login .in .content .bot_block .inb label input:checked+b+span.off{color:#0077FF;}
+.fees_login .in .content .bot_block .inb label input:checked+b+span.off+span.on{color:#fff;}
+
+.fees .inner > a{margin-bottom:25px;font-weight:500;color:#0077FF;font-size:16px;line-height:19px;}
+.fees .inner > a:hover{text-decoration:none;}
+
+.fees .balanced{padding-bottom:0;margin-bottom:40px;}
+.fees .balanced .head{padding: 12px 30px 15px;}
+.fees .balanced .table{display:table;}
+.fees .balanced .table .tr:first-child .tbc{font-size:14px;line-height:16px;color:#939393;font-weight:bold;}
+.fees .balanced .on_mobile{display:none;padding:0;overflow:auto;}
+.fees .balanced .on_mobile .table{padding: 15px 0 20px;}
+.fees .balanced .on_mobile .table:nth-child(2n){background-color:#F9F9F9;}
+.fees .balanced .on_mobile .tbc{width:50%;}
+.fees .balanced .on_mobile .tbc:first-child{text-align:left;padding-left:15px;font-size:14px;line-height:16px;color:#939393;font-weight:bold;}
+.fees .balanced .on_mobile .tbc:last-child{text-align:right;padding-right:15px;}
+.fees .balanced .on_mobile .tr{background:transparent !important;}
+
+.fees .balanced_table .table .tbc{text-align:center;box-sizing:border-box;position:relative;}
+.fees .balanced_table .on_desktop .tbc:first-child{width:10%;text-align:left;padding-left:30px;}
+.fees .balanced_table .on_desktop .tbc:nth-child(2){width:23%;}
+.fees .balanced_table .on_desktop .tbc:nth-child(3){width:19%;}
+.fees .balanced_table .on_desktop .tbc:nth-child(4), .fees .balanced .table .tbc:nth-child(5), .fees .balanced .table .tbc:nth-child(6), .fees .balanced .table .tbc:nth-child(7){width:12%;}
+.fees .balanced_table .on_desktop .tr .tbc:nth-child(2):after{content:"&";position:absolute;right:-3px;}
+.fees .balanced_table .on_mobile{height:1036px;}
+.fees .balanced_table .table .tbc .entry{padding-left:18px;}
+.fees .balanced_table .table .tbc .entry:before{content:"";position:absolute;left:0;background:url("../img/E-active.svg")no-repeat;width:9px;height:16px;top:0;}
+
+.fees .withdraw_table{margin:60px 0 85px;}
+.fees .withdraw_table .table .tbc{position:relative;box-sizing:border-box;}
+.fees .withdraw_table .on_desktop .tbc:first-child{width:8%;}
+.fees .withdraw_table .on_desktop .tbc:nth-child(2){width:15%;text-align:left;}
+.fees .withdraw_table .on_desktop .tbc:nth-child(3){width:23%;text-align:left;}
+.fees .withdraw_table .on_desktop .tbc:nth-child(4){width:32%;text-align:left;}
+.fees .withdraw_table .on_mobile{height:585px;}
+.fees .withdraw_table .table .tbc:nth-child(5){width:32%;text-align:right;padding-right:30px;}
+
+/* general */
+
+.general-page .f-bottom .middle-block .item {
+  margin: 0 16px !important; }
+
+.general-page .f-bottom .copyright{float:right;}
+
+.night_mode {background-color:#2B2B2B;}
+.night_mode .header{background-color:#3A3A3A;}
+.night_mode .footer .f-top{background-color:#3A3A3A;}
+.night_mode .footer .f-bottom{background-color:#3A3A3A;}
+.night_mode .general .general_main .left_side .first_tb h3{background-color:#3A3A3A;}
+.general_main {color:#9E9E9E;}
+.general h2, .general h3{border-bottom:1px solid transparent;}
+.night_mode .general_main {color:#E2E2E2;}
+.general .general_main input{border: 1px solid #C1C1C1;color:#939393;background-color:#fff;}
+.night_mode .general .general_main input{border: 1px solid #3A3A3A;color:#3A3A3A;background-color:#262626;}
+.night_mode .general .general_main aside > div{border:1.5px solid #3A3A3A;color:#E2E2E2;}
+.general .general_main aside > div{border:1.5px solid #f7f7f7;color:#000;}
+.night_mode .general .general_main h2, .night_mode .general .general_main h3{color:#E2E2E2;background-color:#333333;}
+.night_mode .general .general_main .first_tb h2, .night_mode .general .general_main .first_tb h3{background-color:transparent;}
+.general .general_main h2, .light_mode .general .general_main h3{color:#000;}
+.night_mode .general .general_main .first_tb table th{color:#9F9D9D;background-color:#333333;}
+.general .general_main .first_tb table th{color:#939393;background-color:#F9F9F9;}
+.night_mode .general tr:hover td{background-color:#3A3A3A !important;}
+.general tr:hover td{background-color:#F9F9F9 !important;}
+.general .general_main .right_side .stock h2{border-color: #f7f7f7;}
+.night_mode .general .general_main .right_side .stock h2{border-color: #3A3A3A;}
+.general .general_main .title{background-color:#F9F9F9;}
+.night_mode .general .general_main .title{background-color:#333333;}
+.general .general_main .content .caption{border: 1.5px solid #f7f7f7;}
+.night_mode .general .general_main .content .caption{border: 1.5px solid #3A3A3A;}
+.general .general_main .content .caption h1{color:#000;}
+.night_mode .general .general_main .content .caption h1{color:#ccc;}
+.general .general_main .content .caption .content{color:#000;}
+.night_mode .general .general_main .content .caption .content{color:#E2E2E2;}
+.general .general_main .content .caption .content .grey{color:#979797;}
+.night_mode .general .general_main .content .caption .content .grey{color:#9F9D9D;}
+.general .general_main .content .caption .content .inb+.inb{border-color:#F7F7F7;}
+.night_mode .general .general_main .content .caption .content .inb+.inb{border-color:#333333;}
+.general .general_main .content .range_content .tbc .content .inb{color:#939393;}
+.night_mode .general .general_main .content .range_content .tbc .content .inb{color:#E2E2E2;}
+.general .general_main .content .marketplace .tbc > .rL{border-color:#f7f7f7;}
+.night_mode .general .general_main .content .marketplace .tbc > .rL{border-color:#3A3A3A;}
+.general .general_main .content .marketplace .area .row .fright{color:#949494;}
+.night_mode .general .general_main .content .marketplace .area .row .fright{color:#9F9D9D;}
+.general .general_main .content .marketplace .area .row input, .light_mode .general .general_main .content .marketplace .area .row select{background-color:#F9F9F9;}
+.night_mode .general .general_main .content .marketplace .area .row input, .night_mode .general .general_main .content .marketplace .area .row select{background-color:#262626;}
+.general_main select{color:#A8A8A8;}
+.night_mode .general_main select{color:#CCCCCC;}
+.general .general_main .content .marketplace .area .row input{color:#000;}
+.night_mode .general .general_main .content .marketplace .area .row input{color:#E2E2E2;}
+.general .general_main .content .marketplace .area .txt{color:#939393;}
+.night_mode .general .general_main .content .marketplace .area .txt{color:#ccc;}
+.general .bottom_general h2{border-color:#f7f7f7;}
+.general .title{border-bottom:1px solid #f7f7f7;}
+.general h2, .general h3{border-bottom:1px solid #f7f7f7;}
+.night_mode .general .title{border-bottom:1px solid #3A3A3A;}
+.night_mode .general h2, .night_mode .general h3{border-color:#3A3A3A;}
+.night_mode .general .bottom_general .first_tb{border-color:#3A3A3A;}
+.general .general_main .content .marketplace .area .row a.selectBox{background-color:#F9F9F9;}
+.night_mode .general .general_main .content .marketplace .area .row a.selectBox{background-color:transparent;}
+.night_mode .general .general_main .content .price_chart{border:1px solid #3A3A3A;}
+.night_mode .general .general_main .content .price_chart .diagram .main_diagram .confines{border-top:1px solid #3A3A3A;border-bottom:1px solid #3A3A3A;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines{border-top:1px solid #f7f7f7;border-bottom:1px solid #f7f7f7;}
+.night_mode .general .general_main .content .price_chart .diagram .main_diagram .confines .string.white{background-color:#ABABAB;}
+.night_mode .general .general_main .content .price_chart .diagram .main_diagram .confines .string.black{background-color:#313131;}
+.night_mode .general .general_main .content .price_chart .diagram .main_diagram .confines .string.grey{background-color:#585858;}
+
+.general-page{width:auto;height:auto;}
+.general td{cursor:pointer;}
+.general .general_main aside{width:300px;}
+.general .general_main aside > div{margin-bottom:20px;border-radius:3px;}
+.general .general_main .left_side{padding-right:20px;}
+.general .general_main .right_side{padding-left:20px;}
+.general .general_main .first_tb{padding-bottom:20px;}
+.general .general_main h2{font-size:28px;line-height:32px;font-weight:500;text-align:left;padding: 16px 10px 20px 24px;}
+.general .general_main h3{font-size:18px;line-height:21px;font-weight:500;text-align:right;padding: 12px 30px 12px 0;margin-top:20px;}
+.general table td .red{color:#FF4065;}
+.general table td .green{color:#3EC591;}
+.general .general_main .left_side .first_tb table{width:100%;box-sizing:border-box;text-align:left;}
+.general .general_main .left_side .first_tb table th, .general .general_main .left_side .first_tb table td{width:33.333%;box-sizing:border-box;padding-left:10px;padding-right:5px;}
+.general .general_main .left_side .first_tb table th:last-child, .general .general_main .left_side .first_tb table td:last-child{text-align:right;padding-right:10px;padding-left:5px;}
+.general .general_main .left_side .first_tb table th{font-size:14px;line-height:16px;padding-top:12px;padding-bottom:18px;}
+.general .general_main .left_side .first_tb table td{font-size:13px;line-height:15px;padding-top:6px;padding-bottom:6px;}
+.general .general_main .left_side .first_tb table tbody tr:first-child td{padding-top:15px;}
+.general .general_main .left_side .first_tb h3{border-bottom:0px;background-color:#F9F9F9;}
+.night_mode .general .general_main .left_side .first_tb h3{background-color:#3A3A3A;}
+.general .general_main .left_side .graph{width:100%;height:311px;box-sizing:border-box;padding-bottom:35px;}
+.general .general_main .left_side .graph .confines{border-bottom:1px solid #F1F1F1;height:100%;}
+.night_mode .general .general_main .left_side .graph .confines{border-bottom:1px solid #E2E2E2;}
+.general .general_main .left_side .graph .confines .interval{right: 0;left: 0;bottom: 0;position: absolute;}
+.general .general_main .left_side .graph .confines .interval span{position:absolute;color:#939393;top:3px;}
+.general .general_main .left_side .graph .confines .interval span:before{content:"";position:absolute;left:50%;margin-left:-1px;width:2px;height:4px;top:-2px;background-color:#939393;}
+.night_mode .general .general_main .left_side .graph .confines .interval span:before{background-color:#ccc;}
+.night_mode .general .general_main .left_side .graph .confines .interval span{color:#ccc;}
+.general .general_main .left_side .graph .confines .interval span:nth-child(1){left:60px;}
+.general .general_main .left_side .graph .confines .interval span:nth-child(2){left:160px;}
+.general .general_main .left_side .graph .confines .interval span:nth-child(3){left:260px;}
+.general .general_main .left_side .graph .confines .contain{position:absolute;bottom:-1px;}
+
+.general .general_main .right_side .first_tb table{width:100%;box-sizing:border-box;text-align:left;}
+.general .general_main .right_side .first_tb table th, .general .general_main .right_side .first_tb table td{width:33.333%;box-sizing:border-box;padding-left:6px;padding-right:5px;background-color:transparent;}
+.general .general_main .right_side .first_tb table th:last-child, .general .general_main .right_side .first_tb table td:last-child{text-align:right;padding-right:10px;padding-left:5px;}
+.general .general_main .right_side .first_tb table th{font-size:14px;line-height:16px;padding-top:12px;padding-bottom:10px;}
+.general .general_main .right_side .first_tb table td{font-size:13px;line-height:16px;padding-top:5px;padding-bottom:5px;}
+.general .general_main .right_side .first_tb table tbody tr:first-child td{padding-top:15px;}
+.general .general_main .right_side .stock h2{background-color:transparent;border-bottom: 1.5px solid transparent;}
+.general .general_main .right_side .market h2{float:left;padding-bottom:0;}
+.general .general_main .right_side .market .tabs_market{float:right;margin-right:8px;padding-top:15px;}
+.general .general_main .right_side .market .tabs_market ul{font-size:0px;}
+.general .general_main .right_side .market .tabs_market ul li{display:inline-block;vertical-align:top;color:#0077FF;border-radius:3px;transition:0.6s;}
+.general .general_main .right_side .market .tabs_market ul li.active{background-color:#0077FF;color:#E2E2E2;}
+.general .general_main .right_side .market .tabs_market ul li a{cursor:pointer;padding:7px 10px;font-size:16px;line-height:19px;font-weight:500;display:block;}
+.general .general_main .right_side .market .tabs_market ul li a:hover{text-decoration:none;}
+.general .general_main .right_side .market form{clear:both;padding:12px 10px 19px 24px;}
+.general .general_main .right_side .market form .input_block{max-width:88px;}
+.general .general_main .right_side .market form .input_block input{font-size:13px;line-height:16px;padding:2px 13px 2px 33px;border-radius:3px;}
+.general .general_main .right_side .market form .input_block input:focus{border-color:#0077FF !important;}
+.general .general_main .right_side .market .market_area .item{display:none;}
+.general .general_main .right_side .market .market_area .item.active{display:block;}
+.general .general_main .right_side .market .market_area .star{width:19px;height:18px;}
+.general .general_main .right_side .market .market_area td{line-height:18px;}
+.general .general_main .right_side .market .market_area td:first-child{width:5%;padding:5px 4px;}
+.general .general_main .right_side .market table th, .general .general_main .right_side .market table td{padding-left:5px;}
+
+.general .general_main .content .caption{border-radius:3px;}
+.general .general_main .content .caption .title{border-radius:3px;border-bottom:0px;}
+.general .general_main .content .caption h1{text-align:right;font-size:20px;line-height:24px;font-weight:bold;padding:22px 23px }
+.general .general_main .content .caption h1 span.rL:before{content:"";position:absolute;background: url("../img/star.svg")no-repeat;width:23px;height:22px;background-size: contain;left:-31px;top:-1px;}
+.general .general_main .content .caption .content{font-size:16px;line-height:19px;}
+.general .general_main .content .caption .content .inb{padding:15px 20px;}
+.general .general_main .content .caption .content .inb+.inb{border-left:1px solid transparent;}
+.general .general_main .content a{color:#0077FF;font-weight:bold;}
+.general .general_main .content a:hover{text-decoration:none;}
+.general .general_main > .tb > .content > a{font-size:16px;line-height:19px;margin:18px 0 21px;}
+.general .general_main > .tb > .content > a span.rL{padding-left:15px;}
+.general .general_main > .tb > .content > a span.rL .abs{width:5.8px;height:5.2px;left:0;}
+.general .general_main > .tb > .content > a span.rL .up{top:0;}
+.general .general_main > .tb > .content > a span.rL .down{bottom:0;}
+.general .general_main .content .range .fright{margin-left:20px;}
+.general .general_main .content .range .fright a{font-size:13px;line-height:27px;}
+.general .general_main .content .range_content .tbc{width:50%;}
+.general .general_main .content .range_content .tbc .fleft{font-size:14px;line-height:27px;margin-right:15px;}
+.general .general_main .content .range_content .tbc .content{font-size:0;text-align:left;}
+.general .general_main .content .range_content .tbc .content .inb{font-size:13px;line-height:17px;padding: 5px 7px;cursor:pointer;}
+.general .general_main .content .range_content .tbc .content .inb.active{background-color:#0077FF;color:#fff !important;border-radius:3px;}
+
+.general .general_main .content .marketplace{padding-top:20px;}
+.general .general_main .content .marketplace h2{padding-right:50px;border-radius:3px 3px 0 0;}
+.general .general_main .content .marketplace .tbc{width:50%;box-sizing:border-box;}
+.general .general_main .content .marketplace .buy{padding-right:10px;}
+.general .general_main .content .marketplace .sell{padding-left:10px;}
+.general .general_main .content .marketplace .tbc > .rL{border-radius:3px;border:1.5px solid transparent;}
+.general .general_main .content .marketplace .area{padding: 17px 16px 47px 25px;}
+.general .general_main .content .marketplace .area .row{margin-bottom:7px;}
+.general .general_main .content .marketplace .area .row .fleft{width:65px;margin-right:10px;font-weight:500;font-size:15px;line-height:42px;}
+.general .general_main .content .marketplace .area .row .fright{margin-left:15px;font-weight:500;font-size:15px;line-height:42px;}
+.general .general_main .content .marketplace .area .row a.selectBox{display:block !important;border:0px;font-size:15px;line-height:17px;padding:12px 15px;color:#CCCCCC;font-weight:normal;position:relative;}
+.general .general_main .content .marketplace .area .row a.selectBox .selectBox-arrow{position: absolute;right:16px;top:50%;margin-top:-5px;background: url("../img/select_arrow.svg")no-repeat;width:10px;height:9px;transition:0.6s;cursor:pointer;}
+.general .general_main .content .marketplace .area .row a.selectBox-menuShowing .selectBox-arrow{transform:rotate(180deg);}
+.general .general_main .content .marketplace .area .row input{border:0px;font-size:15px;line-height:17px;padding:12px 15px;text-align:right;}
+.general .general_main .content .marketplace .area .txt{padding-top:7px;font-size:14px;line-height:17px;font-weight:bold;padding-right:43px;}
+.general .general_main .content .marketplace .area .txt .fleft{margin-right:10px;}
+.general .general_main .content .marketplace .area .btn_block{margin-top:20px;padding-right:43px;}
+.general .general_main .content .marketplace .area .btn_block button{color:#fff;font-size:15px;line-height:17px;font-weight:500;padding:7px 10px;box-sizing:border-box;width:61px;border-radius:3px;}
+.general .general_main .content .marketplace .area .btn_block button.green{background-color:#3EC591;}
+.general .general_main .content .marketplace .area .btn_block button.red{background-color:#FF4065;}
+
+.general .general_main .content .price_chart{margin-top:25px;border:1px solid #f7f7f7;border-radius:3px;}
+.general .general_main .content .price_chart .title{border-radius:3px 3px 0 0;background-color:transparent;}
+.general .general_main .content .price_chart .title h2{border-radius:3px 3px 0 0;float:left;background-color:transparent;}
+.general .general_main .content .price_chart .title .fright{padding:20px 25px 20px 0;}
+.general .general_main .content .price_chart .title .fright .inb{border:1px solid #0077FF;width:40px;line-height:26px;text-align:center;font-weight:bold;font-size:20px;border-radius:3px;cursor:pointer;}
+.general .general_main .content .price_chart .title .fright .inb+.inb{margin-left:20px;}
+.general .general_main .content .price_chart .diagram .main_diagram{padding:20px 95px 90px 45px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines{height:190px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string{left:0;right:0;height:1px;background-color:#F8F8F8}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string.white{background-color:#F4F4F4;height:2px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string.grey{height:2px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string.red{background-color:#FF4066;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string.red .column{left:10px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string.white .column{left:50px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string.black .column.green{left:170px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string.black .column.red{left:182px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column{width:10px;z-index:3;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column.green{background-color:#3FD199;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column.red{background-color:#FF4065;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column.h_28{height:28px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column.h_200{height:76px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column.h_300{height:114px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column.top50{top:-38px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column.top100_85{top:-28px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .column.top_0{top:0;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string:first-child{top:38px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string:nth-child(2){top:76px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string:nth-child(3){top:114px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string:nth-child(4){top:152px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string:nth-child(5){top:190px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .left{left:-20px;text-align:right;top:-18px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string .right{right:-70px;text-align:left;top:-15px;padding:0 6px;border-radius:3px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .string.red .right{color:#FF4066;background-color:#F9F9F9;}
+.night_mode .general .general_main .content .price_chart .diagram .main_diagram .confines .string.red .right{background-color:#333333;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .interval{right:0;left:0;bottom:-8px;position:absolute;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .interval .abs:before{content:"";position:absolute;left:50%;margin-left:-1px;width:2px;height:4px;background-color:#999999;top:-7px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .interval .abs:first-child{left:15px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .interval .abs:nth-child(2){left:125px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .interval .abs:nth-child(3){left:235px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .interval .abs:nth-child(4){left:345px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .interval .abs:nth-child(5){left:455px;}
+.general .general_main .content .price_chart .diagram .main_diagram .confines .interval .abs:last-child{left:565px;}
+
+.general .general_main .content .price_chart .diagram .bot_diagram{padding: 0 29px 67px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .confines{height:42px;}
+.night_mode .general .general_main .content .price_chart .diagram .bot_diagram .confines{background-color:#333333;}
+.general .general_main .content .price_chart .diagram .bot_diagram .confines{background-color:#F9F9F9;}
+.general .general_main .content .price_chart .diagram .bot_diagram .scroll{cursor:pointer;background-color: #0077FF;width:8px;height:24px;top:50%;margin-top:-12px;position:absolute;z-index:5;border-radius:10px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .scroll.left{left:-4px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .scroll.right{right:-4px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .gorizont{height:100%;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical{height:100%;}
+.general .general_main .content .price_chart .diagram .bot_diagram .string{position:absolute;}
+.general .general_main .content .price_chart .diagram .bot_diagram .gorizont .string{height:1px;width:100%;left:0;top:50%;margin-top:-1px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string{width:1px;height:100%;top:0;bottom:0;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string:first-child{left:70px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string:nth-child(2){left:170px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string:nth-child(3){left:270px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string:nth-child(4){left:370px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string:nth-child(5){left:470px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string:nth-child(6){left:570px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string:nth-child(7){left:670px;}
+.general .general_main .content .price_chart .diagram .bot_diagram .vertical .string .txt{position:absolute;left:-73px;}
+
+.night_mode .general .general_main .content .price_chart .diagram .bot_diagram .string{background-color: #5B5B5B;}
+.general .general_main .content .price_chart .diagram .bot_diagram .string{background-color: #BFBFBF;}
+
+.general .bottom_general{margin-bottom:40px;}
+.general .bottom_general .left.tbc{padding-right:10px;}
+.general .bottom_general .right.tbc{padding-left:10px;}
+.general .bottom_general h2, .general .bottom_general h3{text-transform:uppercase;}
+.general .title h2, .general .title h3{border-color:transparent;}
+.general .bottom_general .first_tb{padding-bottom:15px;border: 1.5px solid #f7f7f7;border-radius:3px;}
+.general .bottom_general table{width:100%;}
+.general .bottom_general table th{background-color:transparent !important;font-size:12px;line-height:15px;padding:20px 10px 5px 25px;}
+.general .bottom_general table td{padding:2px 10px 2px 25px;}
+.general .bottom_general table td, .general .bottom_general table th{text-align:left;box-sizing:border-box;}
+.general .bottom_general table td:last-child, .general .bottom_general table th:last-child{text-align:right;padding-right:25px;}

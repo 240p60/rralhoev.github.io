@@ -1,0 +1,72 @@
+@media screen and (max-width:1230px){
+	
+}
+@media screen and (max-width:1200px){
+	
+}
+@media screen and (max-width:1170px){
+	
+}
+@media screen and (max-width:1150px){
+	
+}
+@media screen and (max-width:1100px) and (min-width:1000px){
+	
+}
+@media screen and (max-width:1100px){
+.faq_page .faq > .right_side{padding-left:20px;}
+}
+@media screen and (max-width:1000px){
+	.contacts__page .row .block .inn{min-height: auto;}
+	.contacts__page .row .block .image_block{margin: 0 auto 30px;}
+	.contacts__page .row{margin-right:0;}
+	.contacts__page .row .block{width:auto; max-width:336px; float:none; margin-left:auto; margin-right:auto; padding-right:0;}
+	.contacts__page .double_block .w50{float:none; width:auto; margin-bottom:20px; padding:0;}
+	#map{height:500px;}
+	.epm_blue_question{padding-top:40px; padding-bottom:40px;}
+	.epm_blue_question .ah1{font-size:20px; line-height:23px; margin-bottom:20px;}
+.faq_page .faq{display: block;}
+.faq_page .faq > div {width:100%;display:block;}
+.faq_page .faq > .right_side{padding-left:0px;width:100%;}
+}
+@media screen and (max-width:800px){
+.faq_page .faq > .left_side .accordion > li > ul > .where .table_bl{overflow-y: auto;}
+.faq_page .faq > .left_side .accordion > li > ul > .where table{width:670px;}
+}
+@media screen and (max-width:700px){
+	
+}
+@media screen and (max-width:650px){
+	.contacts__page .main_title{font-size:20px; line-height:23px;}
+	.contacts__page .buttons_block{margin-bottom: 25px;}
+	.contacts__page .ah2{font-size: 14px; line-height: 16px; margin-bottom: 30px;}
+	.main_title{font-size: 20px; line-height: 24px;}
+	.epm_blue_question a{margin-bottom:10px; width: 157px;}
+	.contacts__page .double_block{margin-top:30px; margin-bottom:50px;}
+	.contacts__page .double_block .m0a{padding:20px; border-radius:20px;}
+	#map{height:250px;}
+}
+@media screen and (max-width:600px){
+.faq_page .faq > .left_side .accordion > li > a{padding-left:20px;}
+.faq_page .faq > .left_side .accordion > li > a:before{left:5px;}
+}
+@media screen and (max-width:580px){
+	.contacts__page .row{padding-top:20px;}
+	.contacts__page .buttons_block a.online{width:166px; margin-left:auto; margin-right:auto;}
+	.contacts__page .buttons_block a{padding-top:6px; padding-bottom:6px; display:block;}
+	.epm_blue_question .ah1 u.hide{display: block;}
+}
+
+@media screen and (max-width:400px){
+	
+	.contacts__page .ah2{padding-right: 0;}
+	.contacts__page .ah2 a{display: block;}
+	.main_title span{display: block;}
+	
+}
+@media screen and (max-width:360px){
+	.contacts__page .double_block u.db{display: none;}
+}
+@media screen and (min-width:400px) and (max-width:700px){
+}
+

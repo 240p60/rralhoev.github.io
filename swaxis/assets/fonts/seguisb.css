@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'seguisb';
+    src: url('fonts/seguisb.eot');
+    src: url('fonts/seguisb.eot') format('embedded-opentype'),
+         url('fonts/seguisb.woff2') format('woff2'),
+         url('fonts/seguisb.woff') format('woff'),
+         url('fonts/seguisb.ttf') format('truetype'),
+         url('fonts/seguisb.svg#seguisb') format('svg');
+}

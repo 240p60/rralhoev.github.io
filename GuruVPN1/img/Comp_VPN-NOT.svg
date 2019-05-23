@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 336.4 255.1" style="enable-background:new 0 0 336.4 255.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;stroke:#808080;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#808080;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:url(#SVGID_2_);}
+	.st4{fill:#FFFFFF;}
+	.st5{enable-background:new    ;}
+	.st6{font-family:'Panton-Bold';}
+	.st7{font-size:24.86px;}
+	.st8{fill:#6D6D6D;}
+</style>
+<title>Ресурс 1</title>
+<g id="Слой_2_1_">
+	<g id="Слой_1-2">
+		
+			<radialGradient id="SVGID_1_" cx="-253.8" cy="7.9655" r="102.4761" gradientTransform="matrix(6.123234e-17 -1 -1.52 -9.307316e-17 180.3075 -2.06)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#CFEDF7"/>
+			<stop  offset="1" style="stop-color:#E0F1F7;stop-opacity:0"/>
+		</radialGradient>
+		<path class="st0" d="M336.4,255.1c-26.3-66.4-96.6-108.6-168.2-108.6S26.3,188.7,0,255.1H336.4z"/>
+		<rect x="146.3" y="202.9" class="st1" width="55.3" height="42.6"/>
+		<path class="st2" d="M47.5,1.5h253c7.7,0,13.9,5.9,13.9,13.2v175c0,7.3-6.2,13.2-13.9,13.2h-253c-7.7,0-13.9-5.9-13.9-13.2v-175
+			C33.5,7.4,39.8,1.5,47.5,1.5z"/>
+		<circle class="st1" cx="174" cy="184.5" r="5.8"/>
+		<path class="st2" d="M99.2,245.5h149.5c1.9,0,3.5,1.6,3.5,3.5v4.6l0,0H95.7l0,0V249C95.7,247.1,97.3,245.5,99.2,245.5z"/>
+		
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="43.6106" y1="92.1523" x2="294.9406" y2="232.4223" gradientTransform="matrix(1 0 0 -1 0 255.2813)">
+			<stop  offset="0" style="stop-color:#F24F0F"/>
+			<stop  offset="1" style="stop-color:#DD006B"/>
+		</linearGradient>
+		<path class="st3" d="M49,8.5h250c5,0,9,4,9,9v151H40v-151C40,12.5,44,8.5,49,8.5z"/>
+		
+		
+		<text transform="matrix(1 0 0 1 213.99 54.68)" class="st4 st6 st7"> </text>
+		
+		
+	</g>
+</g>
+</svg>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1.0, target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="320">
+<title>Title Here</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/global.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="template_styles.css">
+<link rel="stylesheet" href="assets/adaptive.css">
+<style>
+    .ymaps-2-1-68-ground-pane{filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);}
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+	<header id="header">
+        <div class="inner tb">
+            <div class="tbc vM rL logo alCenter">
+                <div class="tb w100 h100 rL alCenter">
+                    <a href="index.html" class="tbc button vM rL w100 h100">
+                        <img src="img/logo.png" alt="Лого" class="inb vM rL" style="max-width: 219px;max-height: 67px;width: 100%;height: 100%;">
+                    </a>
+                </div>
+            </div>
+            <div class="tbc vM rL menu">
+                <ul>
+                    <li>
+                        <a href="cases.html">Кейсы</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Услуги</a>
+                    </li>
+                    <li class="active">
+                        <a href="about_company.html">О компании</a>
+                        <div class="popup_menu">
+                            <ul>
+                                <li><a href="#">Информация</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Вакансии</a></li>
+                                <li><a href="#">Оборудование</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="icon rL" id="button-menu_adaptive">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu_adap rL">
+                    <ul class="accordion">
+                        <li>
+                            <a>Кейсы</a>
+                        </li>
+                        <li>
+                            <a>Услуги</a>
+                        </li>
+                        <li>
+                            <a>О компании</a>
+                            <ul>
+                                <li><a href="#">Информация</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Вакансии</a></li>
+                                <li><a href="#">Оборудование</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tbc vT rL right_side">
+                <div class="enter">
+                    <a href="#">Вход</a>
+                    <a href="#">Регистрация</a>
+                </div>
+                <div class="contacts__block">
+                    <div class="row">
+                        <span class="rL incomplete"><span class="abs">c 9:00 <i class="db"></i>до 18:00</span>Офис: <a href="tel:+7(903)2887622" class="rL tel helvRoman button">+7 (903) 288-76-22</a></span>
+                        <div class="abs popup">
+                            Оставьте заявку и мы обязательно перезвоним
+                        </div>
+                    </div>
+                    <div class="row">
+                        <span class="rL full_time">Производство: <a href="tel:+7(499)7356503" class="rL tel helvRoman button">+7 (499) 735-65-03</a></span>
+                        <div class="abs popup">
+                            Оставьте заявку и мы обязательно перезвоним
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a class="adress rL">Москва, Зеленоград, 2-й Западный пр., 1с1</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="about_company">
+            <div class="inner">
+                <h2>О компании</h2>
+                <ul>
+                    <li class="active">
+                        <a>Информация</a>
+                    </li>
+                    <li>
+                        <a>Вакансии</a>
+                    </li>
+                    <li>
+                        <a>Новости</a>
+                    </li>
+                    <li>
+                        <a>Оборудование</a>
+                    </li>
+                    <li>
+                        <a>Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    	<div class="facts rL abc_p">
+    		<div class="inner">
+    			<div class="row rL hid">
+    				<div class="block fleft rL hid box w25">
+    					<div class="rL alCenter">
+    						<div class="tbc vM">
+    							<div class="number">
+    							60 000
+    							</div>
+    							<div class="discription">единиц готовой продукции  в сутки</div>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="block fleft rL hid box w25">
+    					<div class="rL alCenter">
+    						<div class="tbc vM">
+    							<div class="number">
+    							4 500
+    							</div>
+    							<div class="discription">м2 рабочего пространства</div>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="block fleft rL hid box w25">
+    					<div class="rL alCenter">
+    						<div class="tbc vM">
+    							<div class="number">
+    							50
+    							</div>
+    							<div class="discription">организаций подрядчиков</div>
+    						</div>
+    					</div>
+    				</div>
+    				<div class="block fleft rL hid box w25">
+    					<div class="rL alCenter">
+    						<div class="tbc vM">
+    							<div class="number">
+    							6
+    							</div>
+    							<div class="discription">отделов главного офиса</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div><!-- end  row-->
+    		</div><!-- end  inner-->
+    	</div><!-- end  facts-->
+        <div class="high_lvl rL">
+            <div class="inner">
+                <h3>Наша торговая компания ориентирована на высокий уровень обслуживания своих клиентов.</h3>
+                <div class="txt">Во главе работы мы ставим качество и оперативность выполнения поставленных задач. И с целью постоянного соответствия запросам потребителей мы регулярно изучаем потребности рынка, работаем над своим ассортиментом и комплексом сервисных услуг.</div>
+                <div class="allotted rL">
+                    <span>Для того чтобы поставлять продукцию быстро и эффективно, в наших складских помещениях всегда хранится большой объем товаров.</span>
+                </div>
+                <div class="txt">А наша продуманная система логистики позволяет обеспечивать клиентов оперативными и бесперебойными поставками. От маленьких заказов до загрузки <i class="db"></i>полных фургонов.</div>
+            </div><!-- end  inner-->
+        </div><!-- end  high_lvl-->
+        <div class="co_packing rL about_company">
+            <div class="w50 fright box">
+                <div class="rL">
+                    Мы возьмем на себя разработку концепции промо-набора, создание конструкции и дизайна POS-материалов.
+                    <a href="#" class="db button rL alCenter">Заказать копакинг</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div><!-- end  co_packing-->
+    	<div class="tech_task rL">
+            <div class="inner">
+                <form action="php/tech_task.php" method="post" class="rL" name="call-form" id="tech_task">
+                    <div class="quality">
+                        <div class="fright rL alCenter upp cp box button hide gradientButt showIt">Отправить ТЗ</div>
+                        <div class="fright rL alCenter hideIt alCenter upp helvNormal cp box button">
+                            Скрыть <span>x</span>
+                        </div>
+                        <div class="quality__title rL">
+                            <div class="image"></div>
+                            Скорость расчетов
+                        </div>
+                        Предоставляем открытое коммерческое предложение в течение 24 часов
+                        <div class="clear"></div>
+                    </div>
+                    <div class="rL">
+                        <div class="fright rL alCenter">
+                            <button type="submit" class="rL alCenter upp gradientButt helvMedium" name="call-submit">Отправить ТЗ</button>
+                        </div>
+                        <div class="content rL hid">
+                            <div class="input_block fleft rL box">
+                                <input type="text" name="name" placeholder="Имя" class="rL hid alCenter inputbox w100 box" required="">
+                            </div>
+                            <div class="input_block fleft rL box">
+                                <input type="text" name="number" placeholder="Телефон" class="rL numbox inputbox hid alCenter w100 box" required="">
+                            </div>
+                            <div class="input_block fleft rL box">
+                                <input type="email" name="email" placeholder="Почта" class="rL inputbox hid alCenter w100 box">
+                            </div>
+                            <div class="input_block fleft rL box">
+                                <label class="db rL">
+                                    <input type="file" name="file" class="rL hid alCenter w100 box">
+                                    <b><span class="rL">Прикрепить файл</span></b>
+                                </label>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
+                </form>
+            </div><!-- end inner -->
+        </div><!-- end  feedback-->
+        <div class="review rL">
+            <div class="inner">
+                <h2>Отзывы</h2>
+                <div class="review_slider">
+                    <div class="item">
+                        <div class="rL alCenter">
+                            <span class="tb w100 h100 rL hid alCenter">
+                                <a class="tbc more_info vM rL alCenter">
+                                    <img src="images/review/1.png" alt="Сертификат" class="inb vM rL">
+                                </a>
+                            </span>
+                            <div class="title">P&G</div>
+                            Спасибо за создание конструкции и дизайна POS-материалов, производство упаковки, качественную сборку и логистику вашего готового промо товара до полки!
+                            <a class="db more_info">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="rL alCenter">
+                            <span class="tb w100 h100 rL hid alCenter">
+                                <a class="tbc more_info vM rL alCenter">
+                                    <img src="images/review/2.png" alt="Сертификат" class="inb vM rL">
+                                </a>
+                            </span>
+                            <div class="title">Schwarzkopf</div>
+                            Спасибо за создание конструкции и дизайна POS-материалов, производство упаковки, качественную сборку и логистику вашего готового промо товара до полки!
+                            <a class="db more_info">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="rL alCenter">
+                            <span class="tb w100 h100 rL hid alCenter">
+                                <a class="tbc more_info vM rL alCenter">
+                                    <img src="images/review/3.png" alt="Сертификат" class="inb vM rL">
+                                </a>
+                            </span>
+                            <div class="title">Colgate</div>
+                            Спасибо за создание конструкции и дизайна POS-материалов, производство упаковки, качественную сборку и логистику вашего готового промо товара до полки!
+                            <a class="db more_info">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end inner -->
+        </div><!-- end review -->
+        <div class="feedback rL">
+            <div class="inner">
+                <form action="php/feedback.php" method="post" class="rL" name="call-form" id="feedback">
+                    <div class="rL">
+                        <div class="fright rL alCenter">
+                            <button type="submit" class="rL alCenter upp gradientButt helvMedium" name="call-submit">Перезвоните мне</button>
+                        </div>
+                        <div class="content rL hid">
+                            <div class="input_block fleft rL box">
+                                <input type="text" name="name" placeholder="Имя" class="rL hid alCenter inputbox w100 box" required="">
+                            </div>
+                            <div class="input_block fleft rL box">
+                                <input type="text" name="number" placeholder="Телефон" class="rL numbox inputbox hid alCenter w100 box" required="">
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="quality">
+                        <div class="fright rL alCenter upp cp box button hide gradientButt showIt">Перезвоните мне</div>
+                        <div class="fright rL alCenter hideIt upp helvNormal cp box button">
+                            Скрыть <span>x</span>
+                        </div>
+                        <div class="quality__title rL">
+                            <div class="image"></div>
+                            Режим работы
+                        </div>
+                        Работаем круглосуточно в две производственные смены по 12 часов
+                        <div class="clear"></div>
+                    </div>
+                    <input autocomplete="off" type="hidden" name="call-control" class="call-control" value="0">
+                </form>
+            </div><!-- end inner -->
+        </div><!-- end  feedback-->
+        <div class="certificates rL">
+        	<div class="inner">
+        		<h2>Сертификаты</h2>
+        		<div class="rL">
+        			<div class="title_blue">Компания «Каскад» имеет всю необходимую разрешительную и экспертную документацию на выполнение производственных работ</div>
+        			<div class="row rL hid">
+        				<div class="block fleft rL hid w25 box">
+        					<div class="rL alCenter">
+        						<span class="tb w100 h100 rL hid alCenter">
+        							<span class="tbc vM rL alCenter">
+        								<img src="images/certificates/1.jpg" alt="Сертификат" class="inb vM rL">
+        							</span>
+        						</span>
+        					</div>
+        				</div>
+        				<div class="block fleft rL hid w25 box">
+        					<div class="rL alCenter">
+        						<span class="tb w100 h100 rL hid alCenter">
+        							<span class="tbc vM rL alCenter">
+        								<img src="images/certificates/2.jpg" alt="Сертификат" class="inb vM rL">
+        							</span>
+        						</span>
+        					</div>
+        				</div>
+        				<div class="block fleft rL hid w25 box">
+        					<div class="rL alCenter">
+        						<span class="tb w100 h100 rL hid alCenter">
+        							<span class="tbc vM rL alCenter">
+        								<img src="images/certificates/3.jpg" alt="Сертификат" class="inb vM rL">
+        							</span>
+        						</span>
+        					</div>
+        				</div>
+        				<div class="block fleft rL hid w25 box">
+        					<div class="rL alCenter">
+        						<span class="tb w100 h100 rL hid alCenter">
+        							<span class="tbc vM rL alCenter">
+        								<img src="images/certificates/4.jpg" alt="Сертификат" class="inb vM rL">
+        							</span>
+        						</span>
+        					</div>
+        				</div>
+        				<div class="clear"></div>
+        			</div>
+        			<div class="gost">
+        				<span class="db">ГОСТ Р ИСО 9001-2015 (ISO 9001:2015), ГОСТ 12.0.230-2007 (OHSAS 18001)</span>
+        				<span class="db">ГОСТ Р ИСО 14001-2007 (ISO 14001), ГОСТ Р ИСО/ТО 14969-2007 (ISO 13485)</span>
+        			</div>
+        		</div><!-- end catalog -->
+        	</div><!-- end inner -->
+        </div><!-- end certificates -->
+    </main>
+	<div id="subfooter"></div>
+    <div class="fixed" id="review_popup">
+        <div class="rL alCenter">
+            <div class="close abs"></div>
+            <div class="tb logo w100 h100 rL alCenter">
+                <div class="tbc vM rL alCenter w100 h100">
+                    <img src="img/P&G.png" alt="Лого" class="inb vM rL" style="max-width: 116px;max-height: 51px;width: 100%;height:100%;">
+                </div>
+            </div>
+            <div class="title rL">
+                P&G
+            </div>
+            <div class="review_image alCenter rL">
+                <span class="tb w100 h100 rL alCenter">
+                    <span class="tbc vM rL alCenter">
+                        <img src="images/review/doc/1.jpg" alt="Отзыв" class="inb vM rL">
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div><!--end wrapper-->
+<footer id="footer">
+    <div class="inner">
+        <div class="footer__contacts">
+            <div class="tb w100">
+                <div class="tbc vT w50">
+                    <h3>Наши контакты</h3>
+                    <div class="contacts__block">
+                        <div class="row">
+                            <span class="rL incomplete"><span class="abs">c 9:00 <i class="db"></i>до 18:00</span>Офис: <a href="tel:+7(903)2887622" class="rL tel helvRoman button">+7 (903) 288-76-22</a></span>
+                        </div>
+                        <div class="row">
+                            <span class="rL full_time">Производство: <a href="tel:+7(499)7356503" class="rL tel helvRoman button">+7 (499) 735-65-03</a></span>
+                        </div>
+                        <div class="row">
+                            <a class="adress rL">Москва, Зеленоград, 2-й Западный пр., 1с1</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tbc vT w50">
+                    <h3>Мы в соц сетях</h3>
+                    <div class="social__block">
+                        <div class="rL hid alCenter">
+                            <span class="tb w100 h100 rL hid alCenter">
+                                <a href="#" class="tbc vM rL alCenter">
+                                    <img src="img/inst.png" alt="Instagram" class="inb vT rL" style="max-width: 40px;max-height: 40px;width: 100%;height: 100%;">
+                                </a>
+                                <a href="#" class="tbc vM rL alCenter">
+                                    <img src="img/fb.png" alt="Facebook" class="inb vT rL" style="max-width: 40px;max-height: 40px;width: 100%;height: 100%;">
+                                </a>
+                                <a href="#" class="tbc vM rL alCenter">
+                                    <img src="img/vk.png" alt="Вконтакте" class="inb vT rL" style="max-width: 40px;max-height: 40px;width: 100%;height: 100%;">
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end footer__contacts -->
+    </div><!-- end inner -->
+    <div id="map"></div>
+</footer>
+
+<script src="js/jquery-1.12.1.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="js/mask.js"></script>
+<script src="js/map.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

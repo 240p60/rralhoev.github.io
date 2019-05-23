@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'seguibl';
+    src: url('fonts/seguibl.eot');
+    src: url('fonts/seguibl.eot') format('embedded-opentype'),
+         url('fonts/seguibl.woff2') format('woff2'),
+         url('fonts/seguibl.woff') format('woff'),
+         url('fonts/seguibl.ttf') format('truetype'),
+         url('fonts/seguibl.svg#seguibl') format('svg');
+}
